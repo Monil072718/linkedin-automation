@@ -8,7 +8,7 @@ const PostSchema = new mongoose.Schema({
   attempts: { type: Number, default: 0 },
   lastError: String,
   postedAt: Date,
-  media: [{ assetUrn: String, title: String }], // optional media references
+  media: [{ assetUrn: String, title: String }], 
   createdAt: { type: Date, default: Date.now }
 });
 
